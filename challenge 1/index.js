@@ -1,3 +1,22 @@
+// starting code
+// function getMax1()
+// {
+//   var max = 
+//   {
+//    name: 'Max Headroom'
+//   }
+//   return max;
+// }
+
+// function getMax2()
+// {
+//   return
+//   {
+//     name: 'Max Headroom'
+//   }
+// }
+
+// solution code
 function getMax1()
 {
   var max = { name: 'Max Headroom' }
@@ -9,7 +28,5 @@ function getMax2()
   return { name: 'Max Headroom'}
 }
 
-console.log(getMax1())
-console.log(getMax2())
 
 module.exports = { getMax1, getMax2};
