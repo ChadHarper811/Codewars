@@ -14,3 +14,6 @@ function getMax2()
     name: 'Max Headroom'
   }
 }
+
+
+module.exports = { getMax1, getMax2};

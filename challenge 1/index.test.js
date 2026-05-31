@@ -1,7 +1,6 @@
-const Test = require('@codewars/test-compat');
 
-describe("Tests", () => {
-  it("test", () => {
-Test.expect(stringify(getMax2()) == stringify(getMax1()));
-  });
-});
+const {getMax1, getMax2} = require("./index");
+
+test("Functions should return same value", () =>{
+    expect(getMax2() == getMax1());
+})
