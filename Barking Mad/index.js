@@ -13,20 +13,31 @@
 
 
 // Solution code
-function Dog (breed) {
-  this.breed = breed;
+// function Dog (breed) {
+//   this.breed = breed;
+// }
+
+// let snoopy = new Dog("Beagle");
+
+// let scoobydoo = new Dog("Great Dane");
+
+// Dog.prototype.bark = function() {
+//   return "Woof";
+// };
+
+// Best Practice code
+class Dog {
+  constructor(breed) {
+    this.breed = breed;
+  }
+
+  bark() {
+    return "Woof"
+  }
 }
 
 let snoopy = new Dog("Beagle");
 
 let scoobydoo = new Dog("Great Dane");
-
-snoopy.bark = function() {
-  return "Woof";
-};
-
-scoobydoo.bark = function() {
-  return "Woof";
-};
 
 module.exports = { snoopy, scoobydoo };
