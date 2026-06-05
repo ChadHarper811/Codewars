@@ -19,7 +19,7 @@
 // solution code
 function getMax1()
 {
-  var max = { name: 'Max Headroom' }
+  let max = { name: 'Max Headroom' }
   return max;
 }
 
