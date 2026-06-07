@@ -5,7 +5,8 @@ test("fillFriends method should add people to _friends array, tests _friends arr
 
     for(let i =0; i<4; i++){
         let person = Person()
-        expect(person.fillFriends(people[i])).toBe(people[i]);
-    }
+        person.fillFriends(people[i])
+        expect(person._friends).toBe(people[i]);
+    };
     
 });
