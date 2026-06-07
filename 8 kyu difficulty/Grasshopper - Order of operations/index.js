@@ -8,7 +8,7 @@
 
 // My Solution code
 function orderOperations () {
-  return 2 + 2 * 2 + 2 * 2
+  return (2 + 2) * (2 + 2) * 2
 }
 
 module.exports = { orderOperations };
