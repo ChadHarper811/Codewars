@@ -1,4 +1,4 @@
-// Instructions
+// **Instructions**
 // -Lexical this
 // Complete the Person object, by completing the FillFriends function to fill the _friends Array for the person object.
 // -Output
