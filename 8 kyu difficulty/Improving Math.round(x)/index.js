@@ -19,7 +19,7 @@
 
 // My solution code
 Math.roundTo = function (number, precision) {
-    // TODO: Program Me
+    return Number(number.toFixed(precision))
 }
 
 module.exports = { Math }
