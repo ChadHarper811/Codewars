@@ -1,6 +1,6 @@
 const { Math } = require("./index")
 
-describe(" Tests", () => {
+describe("Tests", () => {
     test("Function returns number rounded to the 'precision' decimal place", () => {
         expect(Math.roundTo(3.1415926535, 4)).toBe(3.1416)
         expect(Math.roundTo(4, 5)).toBe(4)
