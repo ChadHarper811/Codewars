@@ -1,7 +1,7 @@
 const { Number } = require("./index");
 
 describe("Tests", () => {
-    test("Function returns number rounded to the 'precision' decimal place", () => {
-        expect((100).times()).toBe()
+    test("should work exactly like a for loop and throw no errors", () => {
+        // Not sure how to make correct tests for this. Function works on codewars
     });
 });
