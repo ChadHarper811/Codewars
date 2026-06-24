@@ -7,19 +7,19 @@ test("should instantiate objects as expected with values for spitsy", () =>{
     expect(spitsy.gender).toBe("Male");
     expect(spitsy.species).toBe("Labrador");
     expect(spitsy.legs).toBe(4);
-    expect(spitsy.size).toBe("large");
+    expect(spitsy.size).toBe("Large");
     expect(spitsy.master).toBe("Donald");
     expect(spitsy.loyal).toBe(true);
 })
 
-test("should instantiate objects as expected with values for spitsy", () =>{
+test("should instantiate objects as expected with values for Edward", () =>{
     let edward = new Labrador("Edward", 3, "Male", "Emma");
-    expect(spitsy.name).toBe("Edward");
-    expect(spitsy.age).toBe(3);
-    expect(spitsy.gender).toBe("Male");
-    expect(spitsy.species).toBe("Labrador");
-    expect(spitsy.legs).toBe(4);
-    expect(spitsy.size).toBe("large");
-    expect(spitsy.master).toBe("Emma");
-    expect(spitsy.loyal).toBe(true);
+    expect(edward.name).toBe("Edward");
+    expect(edward.age).toBe(3);
+    expect(edward.gender).toBe("Male");
+    expect(edward.species).toBe("Labrador");
+    expect(edward.legs).toBe(4);
+    expect(edward.size).toBe("Large");
+    expect(edward.master).toBe("Emma");
+    expect(edward.loyal).toBe(true);
 })
