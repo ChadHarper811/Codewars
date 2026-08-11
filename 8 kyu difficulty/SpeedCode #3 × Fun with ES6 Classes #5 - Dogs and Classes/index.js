@@ -1,9 +1,3 @@
-// Instructions
-// Preloaded for you is a class Dog. You are then given a working class Labrador as your initial code.
-// Shorten it so that it meets the strict character count requirements for this Kata.
-// Quick, get your timer out and get ready to time yourself. Are you ready? Ready, get set, GO!!! :D
-
-
 // Starting code
 // class Dog {
 //   constructor(name, age, gender, species, size, master, loyal) {
